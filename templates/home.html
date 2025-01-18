@@ -1,8 +1,10 @@
 {% extends "_base.html" %}
+{% load static %}
 {% block title %}
 Bookstore
 {% endblock title %}
 
 {% block content %}
 <h1>This is our home page.</h1>
+<img src="{%static 'images\dfp.jpg' %}" alt="Django for professionals" class="bookcover">
 {% endblock content %}
